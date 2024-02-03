@@ -38,7 +38,7 @@ app.use(
 app.use(
   cors({
     credentials: true,
-    origin: "*",
+    origin: "https://mcaburgerwala-one.vercel.app",
     methods: ["GET", "POST", "PUT", "DELETE"],
   })
 );
